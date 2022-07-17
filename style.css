@@ -23,6 +23,30 @@ h1{
     margin-left: -80px;
 }
 
+/*===========================PLEASE REMOVE=============================*/
+#container{ 
+   transform: scale(0.8,0.8) translate(0,700px);
+}
+/*============================LABLE BOX================================*/
+.lable-box{
+    position:absolute;
+    width: 150px;
+    left: 50%;
+    margin-left:-75px ;
+    text-align: center;
+    color:purple
+    font-weight: 100;
+    font-family: sans-serif;
+}
+.lable-box a{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+.lable-box a:visited{
+  color:purple
+}
+
 /*=========================  NEPTUNE =========================*/
 
 #neptune{
@@ -215,14 +239,14 @@ h1{
     bottom: 239px;
 }
 
-/*==================== MERCURY ====================*/
-
+/*============================Mercury===================================*/
 #mercury {
     width: 40px;
     height: 40px;
     margin: 8px;
     z-index: 1000;
 }
+
 
 #mercury-orbit {
     position: absolute;
@@ -238,38 +262,10 @@ h1{
     -webkit-animation: spin-left 2s linear infinite;
 }
 
-#mercury-label{
+#mercury-lable{
     bottom: 189px;
 }
 
-/*=========================  PLEASE REMOVE =========================*/
-
-#container{
-    transform: scale(0.8, 0.8) translate(0, 700px);
-}
-
-/*=========================  LABEL BOX =========================*/
-
-.label-box{
-    position: absolute;
-    width: 150px;
-    left: 50%;
-    margin-left: -75px;
-    text-align: center;
-    color: white;
-    font-weight: 100;
-    font-family: sans-serif;
-}
-
-.label-box a{
-    text-decoration: none;
-    padding: 0;
-    margin: 0;
-}
-
-.label-box a:visited{
-    color: white;
-}
 
 /*=========================  ANIMATION =========================*/
     
